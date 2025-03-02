@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+
+<body>
+    <div class="position" id="pos"><p style='color:red; display:inline;'> O</p>'s Chance</div>
+    <div class="outer">
+    <div class=heading><h1>Tic &nbsp;</h1> <h1>Tac &nbsp;</h1> <h1>Toe &nbsp;</h1> <h1>Game </h1></div>
+    
+        <div class="lineDiv">
+            <button class="innerDIv" id="one" onclick="clicked(id)" ></button>
+            <button class="innerDIv" id="two" onclick="clicked(id)"></button>
+            <button class="innerDIv" id="three" onclick="clicked(id)"></button>
+        </div>
+        <div class="lineDiv">
+            <button class="innerDIv" id="four"  onclick="clicked(id)"></button>
+            <button class="innerDIv" id="five" onclick="clicked(id)"></button>
+            <button class="innerDIv" id="six" onclick="clicked(id)"></button>
+        </div>  
+        <div class="lineDiv">
+            <button class="innerDIv" id="seven" onclick="clicked(id)"></button>
+            <button class="innerDIv" id="eight" onclick="clicked(id)"></button>
+            <button class="innerDIv" id="nine" onclick="clicked(id)"></button>
+        </div>
+    </div>
+    <div class="score" id="score">Total Games Played: 0 <br> No. of times X Won: 0 <br> No. of games O won: 0 <br> No. of draw matches: 0</div>
+    <div class="winner"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
